@@ -1,4 +1,4 @@
-# Kebabpunk
+# Kebabpunk / Legend of Kebablance
 
 ## Overview
 Back when you were an adventurer, you cannot forget the ultimate food you have tasted in the distant lands called Adana. It was called Doner Kebab as you remember.
@@ -11,3 +11,6 @@ Serve doner kebabs to the folk as their orders. Involve into other adventurers' 
 
 ## Installation
 Clone into a folder and import the project into Unity Hub with editor version 6000.0.64f1
+
+## Itch.Io
+https://deltaoxide.itch.io/legend-of-kebablance
