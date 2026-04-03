@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7d5a62145d2601841b3a487ef7a5edfc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Analysis/Models/Enums.cs
+  uploadId: 865656

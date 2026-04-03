@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Dialogue",
+    "maps": [
+        {
+            "name": "Dialogue",
+            "id": "c111e11b-9de4-49d8-a2dd-d1973f956bae",
+            "actions": [
+                {
+                    "name": "Continue",
+                    "type": "Button",
+                    "id": "c08a789f-0220-46e2-b61c-a942dd20d5b6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d144e327-e4b5-4e31-aa31-f5f5065de2f5",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

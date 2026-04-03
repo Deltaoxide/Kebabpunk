@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2cf34e40c42171340a8da4c4c077d732
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Analysis/ResponseParser.cs
+  uploadId: 865656

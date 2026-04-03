@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - NoCollision
+  - KebabDragArea
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - GameElements
+  - Kebab
+  - NoCollision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: NoCollision
+    uniqueID: 2181802881
+    locked: 0
+  - name: Kebab
+    uniqueID: 1145574599
+    locked: 0
+  - name: UiSprite
+    uniqueID: 3640907891
+    locked: 0
+  m_RenderingLayers:
+  - Default

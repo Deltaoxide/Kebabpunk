@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "NPCSpawnActions",
+    "maps": [
+        {
+            "name": "NPCSpawnActions",
+            "id": "8070a895-0fdc-41d6-9f58-3cad77f7b027",
+            "actions": [
+                {
+                    "name": "SpawnNewNPC",
+                    "type": "Button",
+                    "id": "15449b87-2663-4ac3-af23-fc57899c0692",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "82084814-7488-4d53-aa65-43b00b05d5f3",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnNewNPC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8e83f11591d59424ab85ce88dcd313d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Providers/UnityMainThreadDispatcher.cs
+  uploadId: 865656

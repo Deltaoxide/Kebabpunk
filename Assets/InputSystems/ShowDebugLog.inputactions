@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "ShowDebugLog",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "75cf3abe-f1a5-4dc9-90cb-f70fde5bf321",
+            "actions": [
+                {
+                    "name": "ShowDebug",
+                    "type": "Button",
+                    "id": "6a6b339b-eb70-4249-8332-d50b8b6d7774",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5adf8479-1286-419f-9296-a9b231575f85",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ShowDebug",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

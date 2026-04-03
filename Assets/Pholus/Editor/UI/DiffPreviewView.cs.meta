@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 178b100a2a3362a4a829b117abc07761
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/UI/DiffPreviewView.cs
+  uploadId: 865656

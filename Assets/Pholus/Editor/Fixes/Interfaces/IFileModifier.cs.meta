@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7b91ee2d8daf7a54d93208078ac5583d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Fixes/Interfaces/IFileModifier.cs
+  uploadId: 865656

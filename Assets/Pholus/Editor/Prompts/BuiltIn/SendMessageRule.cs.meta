@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 10c6e3b7da19a0d4599706e8e66f5e58
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Prompts/BuiltIn/SendMessageRule.cs
+  uploadId: 865656

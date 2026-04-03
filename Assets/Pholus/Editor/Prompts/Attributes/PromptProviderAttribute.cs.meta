@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2c42f59ef5cb1874894be9a9cf161b5d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Prompts/Attributes/PromptProviderAttribute.cs
+  uploadId: 865656

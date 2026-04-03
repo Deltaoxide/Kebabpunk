@@ -1,0 +1,56 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class KebabSpawner : MonoBehaviour,IDropHandler
+{
+    [Header("Toppings")]
+    public GameObject ToppingBox_Bread;
+    
+    [Header("Kebab Prefab")]
+    public GameObject KebabPrefab;
+    public int MaxKebabOnCounter = 1;
+    
+    [Header("Kebab Spawn Parent")]
+    public GameObject Counter;
+
+    private Camera _mainCamera;
+
+    private void Awake()
+    {
+        _mainCamera = Camera.main;
+    }
+
+
+    public void OnDrop(PointerEventData eventData)
+    {
+        if (_mainCamera == null) return;
+        if (eventData.pointerDrag == ToppingBox_Bread)
+        {
+            if(GetKebabsInstantiated().Count < MaxKebabOnCounter)
+            {
+                
+                float zDistanceToCamera = Mathf.Abs(_mainCamera.transform.position.z - transform.position.z);
+                Vector3 worldpos = _mainCamera.ScreenToWorldPoint(new Vector3(eventData.position.x,eventData.position.y,zDistanceToCamera));
+                Instantiate(KebabPrefab,worldpos,new Quaternion(0,0,0,0),Counter.transform);
+                Debug.Log("New Kebab Spawned");
+            }
+            else
+            {
+                Debug.Log("Max Kebabs On Counter Reached");
+            }
+        }
+    }
+
+
+    private List<GameObject> GetKebabsInstantiated()
+    {
+        List<GameObject> kebabsList = new();
+        foreach (Transform child in Counter.transform)
+        {
+            kebabsList.Add(child.gameObject);
+        }
+        return kebabsList;
+    }
+
+}

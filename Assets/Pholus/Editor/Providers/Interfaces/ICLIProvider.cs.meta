@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f78ade1a3bb772f4fbfb23506670136a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 353680
+  packageName: "Pholus \u2013 Detect. Explain. Fix."
+  packageVersion: 1.0
+  assetPath: Assets/Pholus/Editor/Providers/Interfaces/ICLIProvider.cs
+  uploadId: 865656
