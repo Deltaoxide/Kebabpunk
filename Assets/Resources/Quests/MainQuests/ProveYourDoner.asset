@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05599135f2fb43b4195387cac6b05e01, type: 3}
   m_Name: ProveYourDoner
   m_EditorClassIdentifier: 
-  <id>k__BackingField: 
-  displayName: 
+  <id>k__BackingField: ProveYourDoner
+  displayName: Prove Your Doner!
   questPrerequisites: []
   questStepPrefabs: []
-  goldReward: 0
-  experienceReward: 0
+  goldReward: 100
+  experienceReward: 100
