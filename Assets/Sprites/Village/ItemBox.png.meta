@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 8d7feb3699a0345489c9637bf558681d
+guid: c81456353aa4a5343bdce3b538a5ae97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6009198046271197863
-    second: Bag_0
+      213: -2639993329033232781
+    second: ItemBox_0
   - first:
-      213: -4144843762343842302
-    second: Bag_1
-  - first:
-      213: -9180689376034957691
-    second: Bag_2
-  - first:
-      213: 7142189153391108903
-    second: Bag_3
-  - first:
-      213: -7056346302594749386
-    second: Bag_4
+      213: -567519917004074384
+    second: ItemBox_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,12 +51,12 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -125,111 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bag_0
+      name: ItemBox_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 54
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.57894737, y: 0.15789473}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95da80b073a0b9ca0800000000000000
-      internalID: -6009198046271197863
+      spriteID: 37eb295fd0cdc5bd0800000000000000
+      internalID: -2639993329033232781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bag_1
+      name: ItemBox_1
       rect:
         serializedVersion: 2
-        x: 54
+        x: 19
         y: 0
-        width: 54
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0.57894737, y: 0.15789473}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20e6008fe8e8a76c0800000000000000
-      internalID: -4144843762343842302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bag_2
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 0
-        width: 54
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 586db3467a3a79080800000000000000
-      internalID: -9180689376034957691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bag_3
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 0
-        width: 54
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 723668ea1372e1360800000000000000
-      internalID: 7142189153391108903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bag_4
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 54
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63ce2b58c62d21e90800000000000000
-      internalID: -7056346302594749386
+      spriteID: 072530074a3cf18f0800000000000000
+      internalID: -567519917004074384
       vertices: []
       indices: 
       edges: []
@@ -238,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 955adbce419f2c44dbf5ff818f1d47cd
+    spriteID: 31a0c516554034c46ba0535af7e12493
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bag_0: -6009198046271197863
-      Bag_1: -4144843762343842302
-      Bag_2: -9180689376034957691
-      Bag_3: 7142189153391108903
-      Bag_4: -7056346302594749386
+      ItemBox_0: -2639993329033232781
+      ItemBox_1: -567519917004074384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

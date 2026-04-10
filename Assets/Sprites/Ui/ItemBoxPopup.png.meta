@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 8d7feb3699a0345489c9637bf558681d
+guid: e516f5c219f22d94c925d956010ba52d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6009198046271197863
-    second: Bag_0
+      213: 7841984211702919938
+    second: ItemBoxPopup_0
   - first:
-      213: -4144843762343842302
-    second: Bag_1
+      213: -1162200814132511255
+    second: ItemBoxPopup_1
   - first:
-      213: -9180689376034957691
-    second: Bag_2
+      213: -4274349956683995691
+    second: ItemBoxPopup_2
   - first:
-      213: 7142189153391108903
-    second: Bag_3
-  - first:
-      213: -7056346302594749386
-    second: Bag_4
+      213: 6559439225574288932
+    second: ItemBoxPopup_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bag_0
+      name: ItemBoxPopup_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 54
-        height: 59
+        width: 72
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95da80b073a0b9ca0800000000000000
-      internalID: -6009198046271197863
+      spriteID: 20336c8871354dc60800000000000000
+      internalID: 7841984211702919938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bag_1
+      name: ItemBoxPopup_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 0
-        width: 54
-        height: 59
+        x: 79
+        y: 43
+        width: 12
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20e6008fe8e8a76c0800000000000000
-      internalID: -4144843762343842302
+      spriteID: 9ed36f364880fdfe0800000000000000
+      internalID: -1162200814132511255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bag_2
+      name: ItemBoxPopup_2
       rect:
         serializedVersion: 2
-        x: 108
-        y: 0
-        width: 54
-        height: 59
+        x: 78
+        y: 1
+        width: 42
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 586db3467a3a79080800000000000000
-      internalID: -9180689376034957691
+      spriteID: 5d5e4226c557ea4c0800000000000000
+      internalID: -4274349956683995691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bag_3
+      name: ItemBoxPopup_3
       rect:
         serializedVersion: 2
-        x: 162
-        y: 0
-        width: 54
-        height: 59
+        x: 100
+        y: 49
+        width: 12
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +203,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 723668ea1372e1360800000000000000
-      internalID: 7142189153391108903
+      spriteID: 42e6e16e83fc70b50800000000000000
+      internalID: 6559439225574288932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bag_4
+      name: ItemBoxPopup_4
       rect:
         serializedVersion: 2
-        x: 216
-        y: 0
-        width: 54
-        height: 59
+        x: 95
+        y: 61
+        width: 55
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63ce2b58c62d21e90800000000000000
-      internalID: -7056346302594749386
+      spriteID: b057959412a0b5448a408001defdc766
+      internalID: 873522955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItemBoxPopup_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ef33409f310245ab6ac36cecb7a82
+      internalID: 465794396
       vertices: []
       indices: 
       edges: []
@@ -238,7 +257,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 955adbce419f2c44dbf5ff818f1d47cd
+    spriteID: 3378ed17e3496b54ba153165672d3c37
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +267,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bag_0: -6009198046271197863
-      Bag_1: -4144843762343842302
-      Bag_2: -9180689376034957691
-      Bag_3: 7142189153391108903
-      Bag_4: -7056346302594749386
+      ItemBoxPopup_0: 7841984211702919938
+      ItemBoxPopup_1: -1162200814132511255
+      ItemBoxPopup_2: -4274349956683995691
+      ItemBoxPopup_3: 6559439225574288932
+      ItemBoxPopup_4: 873522955
+      ItemBoxPopup_5: 465794396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
