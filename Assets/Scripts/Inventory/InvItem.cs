@@ -9,7 +9,7 @@ public class InvItem : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHan
     public string CustomID;
     
     
-    public GameObject currentSlot;
+    public GameObject CurrentSlot {get; private set;}
     //------------ Event 
     public event Action<InvItem> OnHoldItem;
 
@@ -20,6 +20,7 @@ public class InvItem : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHan
     
     private Transform currentSlotTransform;
     private CanvasGroup DraggingGroup;
+    private CanvasGroup ItemGroup;
 
     
     
@@ -38,13 +39,16 @@ public class InvItem : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHan
         currentSlotTransform = transform.parent;
         
         
-        currentSlot = currentSlotTransform.gameObject;
+        
+        CurrentSlot = currentSlotTransform.gameObject;
         DraggingGroup = DraggingTransform.GetComponent<CanvasGroup>();
+        ItemGroup = GetComponent<CanvasGroup>();
         
 
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
+        Debug.Log("Item is begining drag.");
         SetHold(true);   
         OnHoldItem?.Invoke(this);
     }
@@ -57,6 +61,11 @@ public class InvItem : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHan
     {
         Vector2 mouse_worldpos = _mainCamera.ScreenToWorldPoint(eventData.position);
         DraggingTransform.position = mouse_worldpos;
+    }
+    public void AssignSlot(Transform newSlot)
+    {
+        currentSlotTransform = newSlot;
+        CurrentSlot = currentSlotTransform.gameObject;
     }
     private void SetImage()
     {
@@ -71,7 +80,8 @@ public class InvItem : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHan
             transform.SetParent(DraggingTransform);
             transform.localPosition = Vector2.zero;
             DraggingGroup.alpha = 1f;
-            DraggingGroup.blocksRaycasts = false;
+            DraggingGroup.blocksRaycasts = true;
+            ItemGroup.blocksRaycasts = false;
         }
         else
         {
@@ -79,6 +89,7 @@ public class InvItem : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHan
             transform.localPosition = Vector2.zero;
             DraggingGroup.alpha = 0f;
             DraggingGroup.blocksRaycasts = false;
+            ItemGroup.blocksRaycasts = true;
         }
     }
 
