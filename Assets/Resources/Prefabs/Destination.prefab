@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479316414067295973}
   - component: {fileID: 519474630565943782}
+  - component: {fileID: 2492954663084224078}
   m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
@@ -69,6 +70,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.9, y: 0.9}
   m_Direction: 1
+--- !u!114 &2492954663084224078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763602152355157425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17673c285e3d77a4c844c5b635d08bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 5403004881796513336}
+  onDestReached: {fileID: 11400000, guid: 7cb32f9607830ed4ebf07dd3b06fde16, type: 2}
 --- !u!1 &6885391526525042210
 GameObject:
   m_ObjectHideFlags: 0
@@ -78,6 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7008886524324125201}
+  - component: {fileID: 5403004881796513336}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Untagged
@@ -102,6 +118,19 @@ Transform:
   - {fileID: 479316414067295973}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5403004881796513336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6885391526525042210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d0089d1f7cad24eae062d01f54a04a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestID: testDest
 --- !u!1 &8140436738955163462
 GameObject:
   m_ObjectHideFlags: 0
