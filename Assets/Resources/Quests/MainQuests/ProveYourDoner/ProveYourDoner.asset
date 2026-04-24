@@ -15,6 +15,7 @@ MonoBehaviour:
   <id>k__BackingField: ProveYourDoner
   displayName: Prove Your Doner!
   questPrerequisites: []
-  questStepPrefabs: []
+  questStepPrefabs:
+  - {fileID: 6573585606607311804, guid: 5f647425e3bee344886996bf4f86ae06, type: 3}
   goldReward: 100
   experienceReward: 100
