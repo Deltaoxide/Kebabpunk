@@ -1,5 +1,6 @@
 LIST Toppings = Lettuce, Tomato
 VAR order_state = 0
+VAR dialogue_state = 0
 
 
 EXTERNAL normalOrder(orderList)

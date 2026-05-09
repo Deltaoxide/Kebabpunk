@@ -19,7 +19,7 @@ public class NPCDataManager : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-    public void SetNpcData(NPC _NPCData)
+    public void SetNpcData(NPCSO _NPCData)
     {
         unique_id = _NPCData.unique_id;
         normal_sprite = _NPCData.sprite;

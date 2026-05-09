@@ -1,2 +1,15 @@
 fileFormatVersion: 2
 guid: 2e80ef39e46683949a2cc4896bff38e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - onStartQuest: {instanceID: 0}
+  - onAdvanceQuest: {instanceID: 0}
+  - onFinishQuest: {instanceID: 0}
+  - onQuestStateChange: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

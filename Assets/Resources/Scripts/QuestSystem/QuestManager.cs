@@ -5,6 +5,11 @@ public class QuestManager : MonoBehaviour
 {
     private Dictionary<string, Quest> questMap;
 
+    public CustomEvent_str onStartQuest;
+    public CustomEvent_str onAdvanceQuest;
+    public CustomEvent_str onFinishQuest;
+    public CustomEvent_quest onQuestStateChange;
+
     private void Awake()
     {
         questMap = CreateQuestMap();
@@ -12,6 +17,25 @@ public class QuestManager : MonoBehaviour
         Quest quest = GetQuestById("ProveYourDoner");
         Debug.Log(quest.info.displayName);
 
+    }
+    private void OnEnable()
+    {
+        onStartQuest.RegisterListener(StartQuest);
+        onAdvanceQuest.RegisterListener(AdvanceQuest);
+        onFinishQuest.RegisterListener(FinishQuest);
+    }
+    private void OnDisable()
+    {
+        onStartQuest.UnregisterListener(StartQuest);
+        onAdvanceQuest.UnregisterListener(AdvanceQuest);
+        onFinishQuest.UnregisterListener(FinishQuest);
+    }
+    private void Start()
+    {
+        foreach (Quest quest in questMap.Values)
+        {
+            onQuestStateChange.Invoke(quest);
+        }
     }
     private Dictionary<string, Quest> CreateQuestMap()
     {
@@ -36,5 +60,18 @@ public class QuestManager : MonoBehaviour
             Debug.LogError("ID not found in the Quest Map: " + id);
         }
         return quest;
+    }
+
+    private void StartQuest(string id)
+    {
+        
+    }
+    private void AdvanceQuest(string id)
+    {
+        
+    }
+    private void FinishQuest(string id)
+    {
+        
     }
 }
